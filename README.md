@@ -1,2 +1,5 @@
-# ML_Development Repository
-## This repository will consist of experimental testing using Machine Learning concepts as I venture through AI.
+# ML_Development
+
+This repository will document learning experiences throughout CS4990: Machine Learning as well as the the field itself.
+
+
