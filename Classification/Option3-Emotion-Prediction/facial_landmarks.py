@@ -20,7 +20,7 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # detect faces in the grayscale image
-image = cv2.imread("images/img_3.jpg")
+image = cv2.imread("images/color_img.jpg")
 
 #image = (image/256).astype('uint8')
 image = imutils.resize(image, width=100, height=100)
