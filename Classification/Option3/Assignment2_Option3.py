@@ -83,7 +83,7 @@ def make_sets():
                 prediction_labels.append(emotions.index(emotion))
     return training_data, training_labels, prediction_data, prediction_labels
 accur_lin = []
-for i in range(0,10):
+for i in range(0,1):
     print("Making sets %s" %i) #Make sets by random sampling 80/20%
     training_data, training_labels, prediction_data, prediction_labels = make_sets()
     npar_train = np.array(training_data) #Turn the training set into a numpy array for the classifier
