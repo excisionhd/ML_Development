@@ -2,7 +2,6 @@ import os
 import keras
 import cv2
 import numpy as np
-#from imutils import resize as rz
 from skimage.transform import resize
 from model import build_model
 from keras.models import load_model
@@ -41,8 +40,6 @@ while True:
     green = np.ones(resized_img.shape, dtype=np.float)*(0,0,1)
 
     out = green*mask + resized_img*(1.0-mask)
-
-
 
     cv2.imshow('Output', out)
 
