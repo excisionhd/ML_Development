@@ -14,7 +14,7 @@ These programs were developed with Python 2.7.  Please have the following depend
 
 1. Download the files Webcam.py and model.py.
 2. Create a Python 2.7 virtual environment (optional)
-3. Download pre-trained weights at: 
+3. Download pre-trained weights [here](https://www.dropbox.com/s/ihregr4ugb0s2pi/weights.h5?dl=0)  
 4. Run Webcam.py
 	`python Webcam.py`
 5. Allow OpenCV to use your webcam (if necessary).
