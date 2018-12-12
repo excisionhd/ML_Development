@@ -29,7 +29,7 @@ A lot can still be done to improve the performance of this application (namely f
 https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
 
 **Academic resources:**
-Fischer, et al., U-Net: Convolutional Networks for Biomedical Image Segmentation. Retrieved From [https://arxiv.org/pdf/1505.04597.pdf](https://arxiv.org/pdf/1505.04597.pdf)
-Aarabi, Guo, et al., Real-time deep hair matting on mobile devices. Retrieved From [https://arxiv.org/pdf/1712.07168.pdf](https://arxiv.org/pdf/1712.07168.pdf)
-Balakrishna, et al., Automatic detection of lumen and media in the IVUS images using U-Net with VGG16 Encoder. Retrieved From [https://arxiv.org/pdf/1806.07554.pdf](https://arxiv.org/pdf/1806.07554.pdf)
+Fischer, et al., U-Net: Convolutional Networks for Biomedical Image Segmentation. Retrieved From [https://arxiv.org/pdf/1505.04597.pdf](https://arxiv.org/pdf/1505.04597.pdf)  
+Aarabi, Guo, et al., Real-time deep hair matting on mobile devices. Retrieved From [https://arxiv.org/pdf/1712.07168.pdf](https://arxiv.org/pdf/1712.07168.pdf)  
+Balakrishna, et al., Automatic detection of lumen and media in the IVUS images using U-Net with VGG16 Encoder. Retrieved From [https://arxiv.org/pdf/1806.07554.pdf](https://arxiv.org/pdf/1806.07554.pdf)  
 [https://github.com/MarcoForte/knn-matting](https://github.com/MarcoForte/knn-matting)
