@@ -13,7 +13,7 @@ from skimage.io import imread, imshow, imread_collection, concatenate_images
 vggunet = build_model()
 
 #Load pre-trained weights from assignment 3
-vggunet.load_weights("weights.h5)
+vggunet.load_weights("weights.h5")
 
 #Create a zeroes array for storing prediction.
 X_test = np.zeros((1,256,256,3), dtype=np.float32)
