@@ -1,6 +1,8 @@
 
 #!/usr/bin/env python3
 
+
+#TODO: Create generator
 import os
 import scipy
 import numpy as np
