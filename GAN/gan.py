@@ -2,7 +2,7 @@
 #!/usr/bin/env python3
 
 #TODO: Create generator
-#Research
+#Research how discriminator works with generator
 import os
 import scipy
 import numpy as np
