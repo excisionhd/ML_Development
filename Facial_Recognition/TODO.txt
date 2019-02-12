@@ -1,0 +1,5 @@
+1. Research DL architectures fit for facial recognition.
+2. Research common methods to speed up/maximize the efficiency of the task.
+3. Implement model and train/test on LFW dataset.
+
+OPTIONAL: Research GANS for generating training/testing data.
