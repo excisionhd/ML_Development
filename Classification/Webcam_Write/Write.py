@@ -6,14 +6,16 @@ import argparse
 from collections import deque
 
 
-cap=cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 
 pts = deque(maxlen=64)
 
-Lower_green = np.array([110,50,50])
-Upper_green = np.array([130,255,255])
+Lower_green = np.array([110, 50, 50])
+Upper_green = np.array([130, 255, 255])
 while True:
-	ret, img=cap.read()
+	ret, img = cap.read()
+	img = cv2.resize(img, (600,400))
+	img = cv2.flip(img, 1)
 	hsv=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 	kernel=np.ones((5,5),np.uint8)
 	mask=cv2.inRange(hsv,Lower_green,Upper_green)
