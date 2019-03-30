@@ -5,3 +5,7 @@
 2. Tensorflow
 3. Scipy
 4. Opencv
+5. Docker
+
+## Steps:
+1. Clone docker container
