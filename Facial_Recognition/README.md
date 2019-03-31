@@ -8,4 +8,7 @@
 5. Docker
 
 ## Steps:
-1. Clone docker container
+1. Save photo of yourself into directory
+2. Modify code to include your face encoding
+3. Clone docker container
+4. Run docker container
