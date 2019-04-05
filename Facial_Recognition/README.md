@@ -10,5 +10,5 @@
 ## Steps:
 1. Save photo of yourself into directory
 2. Modify code to include your face encoding (ensure the path is correct)
-3. Clone docker container
+3. Clone docker container `docker pull excisionhd/fr_webcam`
 4. Run docker container
