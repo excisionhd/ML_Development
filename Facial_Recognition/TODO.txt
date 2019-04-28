@@ -6,3 +6,7 @@ Prepare Docker container for deployment/assignment.
 	Need to decide between webcam demo or upload photo
 5. Complete paper
 OPTIONAL: Research GANS for generating training/testing data.
+
+
+Decided approach:
+Utilize facial_recognition module API to perform demo.
