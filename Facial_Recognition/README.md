@@ -1,14 +1,14 @@
 # Facial Recognition Project using Deep Learning & Tensorflow
 ## CS5990: Deep Learning
 ### Dependencies:
-1. Python 3.7
-2. Tensorflow
-3. Scipy
-4. Opencv
-5. Docker
+`pip install -r requirements.txt`
 
 ## Steps:
-1. Save photo of yourself into directory
-2. Modify code to include your face encoding (ensure the path is correct)
+1. Upload your own pictures of people to identify.
+2. Modify code to point to these images and assign their lables.
+3. If requirements are installed, `python FR_Video.py`
+
+OR
+
 3. Clone docker container `docker pull excisionhd/fr_webcam`
 4. Run docker container
